@@ -120,9 +120,10 @@ class EditarNotas
             System.out.println("Digite \"1\" para editar o titulo.");
             System.out.println("Digite \"2\" para editar a nota.");
             System.out.println("Digite \"3\" para sair.");
-            int resposta2 = scannear.nextInt();
+            String resposta2 = scannear.nextLine();
+            int resposta22 = Integer.parseInt(resposta2);
 
-            switch (resposta2)
+            switch (resposta22)
             {
                 case 1:
                     System.out.printf("Titulo atual: %s \n", notaEncontrada.GetTitulo());
@@ -223,7 +224,8 @@ public class Main {
                 System.out.println("Digite \"4\" para ver uma nota especifica.");
                 System.out.println("Digite \"5\" para sair do programa.");
 
-                int resposta = scannear.nextInt();
+                String resposta0 = scannear.nextLine();
+                int resposta = Integer.parseInt(resposta0);
                 switch (resposta) {
                     case 1:
                         CriarNotas.CriarNota();
