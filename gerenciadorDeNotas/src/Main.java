@@ -87,7 +87,7 @@ class Verificacao
     {
 
         System.out.printf("Sua resposta: %s", texto);
-        System.out.println("A sua resposta esta correta? s/n");
+        System.out.println("\nA sua resposta esta correta? s/n");
         String resposta = scannear.nextLine();
         if( resposta.equals("s") || resposta.equals("S"))
         {
