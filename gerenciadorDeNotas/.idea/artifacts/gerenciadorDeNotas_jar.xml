@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gerenciadorDeNotas:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/gerenciadorDeNotas_jar</output-path>
+    <root id="archive" name="gerenciadorDeNotas.jar">
+      <element id="module-output" name="gerenciadorDeNotas" />
+    </root>
+  </artifact>
+</component>
