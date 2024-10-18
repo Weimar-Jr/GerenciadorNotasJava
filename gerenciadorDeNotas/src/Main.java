@@ -216,7 +216,7 @@ public class Main {
 
             try{
 
-                System.out.println("Bem vindo ao gerenciador de notas.");
+                System.out.println("\nBem vindo ao gerenciador de notas.");
                 System.out.println("Digite \"1\" para adicionar uma nova nota.");
                 System.out.println("Digite \"2\" para editar uma nota.");
                 System.out.println("Digite \"3\" para mostrar todas as notas.");
